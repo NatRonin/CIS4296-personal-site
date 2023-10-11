@@ -3,29 +3,48 @@ body {
     font-family: 'Merriweather Sans', sans-serif;
 }
 
-.section {
-    padding-top: 75px;
+h4 {
+    font-family: 'Impact', sans-serif;
+    font-weight: 200;
 }
 
 .next {
     font-size: 65px;
 }
 
-.next a {
-    color: rgb(33, 37, 41);
-}
+    .next a {
+        color: rgb(33, 37, 41);
+    }
 
 .arrow-next {
     color: var(--bs-primary) !important;
 }
 
-.arrow-next:hover {
-    color: var(--bs-primary-dark) !important;
-}
+    .arrow-next:hover {
+        color: var(--bs-primary-dark) !important;
+    }
 
 .nav-item:hover {
     background-color: var(--bs-primary-dark)
 }
+
+.custom-navbar {
+    background-color: var(--bs-primary) !important;
+    color: white;
+}
+
+.custom-navbar .navbar-nav .nav-link {
+    color: white;
+
+}
+
+.custom-navbar .navbar-nav .nav-link:hover {
+    color: white;
+}
+
+    .custom-navbar .navbar-toggler-icon {
+        background-color: white;
+    }
 
 .language-wrapper img,
 .contact-wrapper a {
@@ -34,10 +53,10 @@ body {
     transition-property: all;
 }
 
-.language-wrapper img:hover,
-.contact-wrapper a:hover {
-    transform: scale(1.2);
-}
+    .language-wrapper img:hover,
+    .contact-wrapper a:hover {
+        transform: scale(1.2);
+    }
 
 .class-card {
     background-color: #eeeeee;
@@ -46,7 +65,7 @@ body {
     transition-duration: 0.3s;
 }
 
-.class-card:hover {
-    background-color: var(--bs-primary);
-    color: white;
-}
+    .class-card:hover {
+        background-color: var(--bs-primary);
+        color: white;
+    }
